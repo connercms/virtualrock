@@ -1,0 +1,10 @@
+﻿using System;
+namespace VirtualRock.Resources
+{
+    public class SaveUserResource
+    {
+        public string UserId { get; set; }
+        public string Name { get; set; }
+        public string Email { get; set; }
+    }
+}
